@@ -3,4 +3,4 @@
 --Part 2
 	-- select * from employers where location = "St. Louis";
 --Part 3
-
+	--select name,description from skills join jobskills on skills.Id = jobskills.SkillId where JobId is not null order by name asc ;
